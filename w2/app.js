@@ -37,3 +37,17 @@ const num2 = 3;
 console.log(`${num1} + ${num2} = ${num1 + num2}`);      // Addition
 console.log(`${num1} / ${num2} = ${num1 / num2}`);      // Division
 console.log(`${num1} % ${num2} = ${num1 % num2}`);      // Modulo (remainder)
+
+// --- Part 4: Assignment and Comparison Operators ---
+console.log("--- Assignment and Comparison Operators ---");
+let totalCoins = 20; // Assignment
+totalCoins += 5;     // Addition Assignment Operator
+console.log (`Total coins after += 5: ${totalCoins}`); // Adds 5 to totalCoins (totalCoins = totalCoins + 5)
+
+let valueA = 5;
+let valueB = '5';
+// Comparison Operators
+console.log(`Strict Equality (===): ${valueA} === ${valueB} is ${valueA === valueB}`);
+console.log(`Loose Equality (==): ${valueA} == ${valueB} is ${valueA == valueB}`);
+console.log(`Strict Not Inequality (!==): ${valueA} !== ${valueB} is ${valueA !== valueB}`);
+console.log(`Greater Than: ${valueA} > 7 is ${valueA > 7}`);
