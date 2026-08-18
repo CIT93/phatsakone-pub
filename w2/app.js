@@ -28,3 +28,12 @@ console.log(`${isGameOver} is a typeof ${typeof isGameOver}`);
 
 // Phatsakone's Variable Rule
 // Use const unless you can't than use let
+
+// --- Part 3: Arithmetic Operators ---
+console.log("--- Arithmetic Operators (Math!)---");
+const num1 = 14;
+const num2 = 3;
+
+console.log(`${num1} + ${num2} = ${num1 + num2}`);      // Addition
+console.log(`${num1} / ${num2} = ${num1 / num2}`);      // Division
+console.log(`${num1} % ${num2} = ${num1 % num2}`);      // Modulo (remainder)
